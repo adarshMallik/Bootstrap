@@ -1,0 +1,172 @@
+body{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 3000px;
+}
+/* Navbar css */
+.acitNavbar{
+    background-color: rgb(52, 58, 64);
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover{
+    color: #ff4500;
+}
+
+#navbar-img{
+    height: 50px;
+    width: 170px;
+}
+
+/* Course css */
+
+div.courses{
+    background-color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    font-size: 0.8rem;
+    border-bottom: 1px solid;
+    box-shadow: 0px 3px #888888;
+}
+ /* Carousel css */
+#carousel-img{
+    vertical-align: middle;
+    width:auto;
+    height:400px;
+}
+
+.carousel-caption{
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.carousel-indicators{
+    margin-bottom: 100px;
+}
+#explore{
+    padding:10px 20px;
+    background-color: #ff4500;
+    color: white;   
+}
+#explore:hover
+{
+    background-color:rgb(0, 140, 255)
+}
+/* overlap-div section */
+.trending-courses{
+    position: relative;
+}
+.overlapCard{
+    position: absolute;
+    top: -50px;
+    padding: 25px 35px;
+    box-shadow: 0 0 15px 1px;
+    transition: transform .2s;
+}
+
+.overlapCard:hover{
+    background:linear-gradient(to right, #000066 0%, #0066ff 102%);
+    color: white;
+    transform: scale(1.2);
+}
+
+.overlapCard-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* contact button */
+#contactUs{
+    position: fixed;
+    right:-10px;
+    top: 20rem;
+    border-radius: 10px;
+    padding:8px 15px;
+    background-color: #ff4500;
+    color: white;  
+    transform: rotate(-90deg);
+    z-index: 100;
+}
+
+#contactUs:hover{
+    background-color:rgb(0, 140, 255)
+}
+
+/* Sticky Footer css */
+.fixed-footer{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    height: 60px;
+    width:100%;
+}
+
+#contact-detail{
+    color: white;
+    padding: 10px;
+}
+
+#contact-detail:hover{
+    color: #ff4500;
+}
+
+/* trending-course */
+
+.logo-img{
+    width:100px;
+    height:130px;
+}
+
+.card-description{
+    position: absolute;
+    top:50%;
+    background-color: black;
+    color: white;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    overflow-y: auto;
+    transition: all 1s ease 0s;
+}
+
+.trend-card{
+    cursor: pointer;
+    position: relative;
+}
+
+.trend-card:hover
+.card-description{
+    opacity: 1;
+    top: 0;
+
+}
+
+.view-detail
+{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    margin: 10px 60px;
+}
+
+.view-detail:hover{
+    background-color: #ff4500;
+}
+/* top-category section */
+.zoom{
+    transition: transform .2s;
+}
+
+.zoom:hover{
+    transform: scale(1.2);
+}
